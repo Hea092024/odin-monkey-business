@@ -1,6 +1,7 @@
 :root {
     --dark-color: #1F2937;
     --blue-color: #3882F6;
+    --whitesmoke-color: #E5E7EB;
     
 }
 
@@ -13,11 +14,20 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: peachpuff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color:var(--dark-color)
+
+  }
+
+  .header {
+    background-color: var(--dark-color);
+    display: flex;
+      justify-content: space-between;
+  align-items: center;
+  color: var(--whitesmoke-color);
+  }
   
-}
 

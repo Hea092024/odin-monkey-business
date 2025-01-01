@@ -2,6 +2,7 @@
     --dark-color: #1F2937;
     --blue-color: #3882F6;
     --whitesmoke-color: #E5E7EB;
+    --white-color: #F9FAF8;
     
 }
 
@@ -29,5 +30,13 @@ body {
   align-items: center;
   color: var(--whitesmoke-color);
   }
-  
+
+  .header-logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 

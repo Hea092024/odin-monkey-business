@@ -67,7 +67,7 @@ body {
 }
 
 .hero-image {
-  background-color: #484f5c;
+  background-color: var(--Greyish-color);
   max-height: fit-content;
   text-align: center;
   display: flex;
@@ -85,14 +85,14 @@ body {
 
 .hero-text p {
   font-size: 18px;
-  color: #E5E7EB;
+  color: var(--whitesmoke-color);
   text-align: left;
   padding: 20px 0px;
 }
 
 .cta-button {
-  background-color: #3882F6;
-  color: #F9FAF8;
+  background-color: var(--blue-color);
+  color: var(--white-color);
   margin-top: 10px;
   padding: 10px 20px;
   border : none;

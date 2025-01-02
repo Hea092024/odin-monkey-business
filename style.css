@@ -1,6 +1,7 @@
 :root {
     --dark-color: #1F2937;
     --blue-color: #3882F6;
+    --light-blue-color: #0056b3;
     --whitesmoke-color: #E5E7EB;
     --white-color: #F9FAF8;
     --Greyish-color: #484f5c;
@@ -99,4 +100,7 @@ body {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+}
+.cta-button:hover {
+  background-color: var(--light-blue-color);
 }

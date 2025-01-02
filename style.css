@@ -75,3 +75,9 @@ body {
   align-self: center;
   padding: 10px;
 }
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+}

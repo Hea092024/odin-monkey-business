@@ -154,3 +154,10 @@ body {
   border: 2px solid #F9FAF8;
 }
 
+.footer {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}

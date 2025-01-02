@@ -104,3 +104,9 @@ body {
 .cta-button:hover {
   background-color: var(--light-blue-color);
 }
+
+.info-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: var(--white-color);
+}

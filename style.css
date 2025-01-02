@@ -128,9 +128,18 @@ body {
 .info-card-image {
   width: 150px;
   height: 150px;
-  border: 2px solid #3882F6;
+  border: 2px solid var(--blue-color);
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.quote {
+  background-color: var(--whitesmoke-color);
+  font-size: 36px;
+  color: var(--dark-color);
+  padding: 100px 400px;
+  text-align: center;
+}
+

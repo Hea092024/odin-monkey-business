@@ -120,7 +120,17 @@ body {
 
 .info-cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 20px;
-  flex-wrap: wrap;
+  
+}
+
+.info-card-image {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

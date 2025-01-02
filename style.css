@@ -116,8 +116,8 @@ p {
 .info-cards {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
 
 .quote {
   background-color: var(--whitesmoke-color);
@@ -154,6 +154,10 @@ footer {
 
   .hero h1 {
     font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
   }
 
   .info-section h2 {
@@ -195,4 +199,15 @@ footer {
     font-size: 16px;
     margin: 0 10px;
   }
+
+  .info-cards {
+    justify-content: center;
+  }
+
+  .info-card {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
 }

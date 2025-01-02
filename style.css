@@ -131,7 +131,7 @@ header .header-nav a:hover {
 }
 
 .cta-section .cta-button {
-  border: 2px solid #F9FAF8;
+  border: 2px solid var(--white-color);
 }
 
 footer {

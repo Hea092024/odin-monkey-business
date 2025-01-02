@@ -110,3 +110,10 @@ body {
   text-align: center;
   background-color: var(--white-color);
 }
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--dark-color);
+  margin-bottom: 30px;
+}

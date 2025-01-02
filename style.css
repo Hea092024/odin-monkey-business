@@ -143,3 +143,9 @@ body {
   text-align: center;
 }
 
+.cta-section {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 40px 20px;
+}

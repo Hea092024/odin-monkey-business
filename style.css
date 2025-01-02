@@ -60,3 +60,7 @@ body {
   padding: 100px 100px;
 }
 
+.hero-text {
+  text-align: left;
+  margin-right: 50px;
+}
